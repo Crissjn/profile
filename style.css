@@ -1,0 +1,80 @@
+body {
+  background-color: lightgoldenrodyellow;
+  color:darkslategrey;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-size: 30px;
+  line-height: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pic-circle{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+a{
+  color: black;
+}
+
+
+.btn-red{
+  background-color: rgb(220, 113, 113);
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: black;
+  box-shadow: 5px 5px 5px rgb(220, 113, 113);
+}
+.btn-red:hover{
+  background-color: blanchedalmond;
+  color: brown;
+}
+
+@media(max-width:900px){
+  .container{
+    margin: 30px auto;
+    width: 650px;
+  }}
+
+@media(max-width:700px){
+  .container{
+    margin: 30px auto;
+    width: 450px;
+  }}
+
+@media(max-width:500px){
+  .container{
+    margin: 30px auto;
+    width: 350px;
+  }}
+
+.card-white{
+  background-color: white;
+  border-style: dashed;
+  margin: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 5px lightblue;
+  text-align: center;
+}
+
+ul{
+  padding: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px auto;
+}
+
+.list-inline > li:hover{
+  background-color: cornflowerblue;
+}
